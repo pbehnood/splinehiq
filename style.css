@@ -1,9 +1,15 @@
 body {
     margin: 0;
     font-family: 'MD Primer Test', sans-serif;
+    display: block;
                                 
   }
   
+  #head {
+    display: flex;
+    align-items: center;
+    }
+
   .instruction  {
     max-width: 800px;
     margin: auto;
@@ -16,17 +22,34 @@ body {
 
   .line {
     margin: auto;
+    display: block;
     max-width: 800px;
     height: 500px;
   }
 
   h1 {
+    margin: 0;
     margin-top: 10%;
+    margin-left: 5%;
+    width: 80%;
+
   }
 
   p {
-    text-indent: 5%;
+    margin-left: 5%;
     font-weight: 700;
     
   }
   
+  img {
+    max-width: 20%;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    margin: 0;
+    margin-top: 10%;
+    float: right;
+    margin-right: 5%;
+
+
+  }
+
