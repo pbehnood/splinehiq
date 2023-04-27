@@ -1,1 +1,32 @@
+body {
+    margin: 0;
+    font-family: 'MD Primer Test', sans-serif;
+                                
+  }
+  
+  .instruction  {
+    max-width: 800px;
+    margin: auto;
+  }
 
+  .foot {
+    max-width: 800px;
+    margin: auto;
+  }
+
+  .line {
+    margin: auto;
+    max-width: 800px;
+    height: 500px;
+  }
+
+  h1 {
+    margin-top: 10%;
+  }
+
+  p {
+    text-indent: 5%;
+    font-weight: 700;
+    
+  }
+  
